@@ -7,6 +7,10 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
+  background-image: url("http://images.hdbackgroundpictures.com/pictureHD51b43a311f82230721.jpg");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 .row {
@@ -120,3 +124,12 @@ body {
 .p1 {padding: 1em;}
 .p2 {padding: 3em;}
 .p3 {padding: 3em;}
+
+#container {
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: -1;
+}

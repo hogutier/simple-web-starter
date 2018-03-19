@@ -1,5 +1,3 @@
-console.log('hello!');
-
 // import Chart from 'chart.js';
 
 // National Chart
@@ -61,102 +59,115 @@ var myChart = new Chart(ctx, {
         data: salesRegional.north,
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)',
-          'rgba(255, 159, 64, 0.2)',
-          'rgba(0, 0, 0, 0.2)'
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
         ],
         borderColor: [
           'rgba(255,99,132,1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)',
-          'rgba(0, 0, 0, 1)'
-        ],
-        borderWidth: 5
+          'rgba(255,99,132,1)',
+          'rgba(255,99,132,1)',
+          'rgba(255,99,132,1)',
+          'rgba(255,99,132,1)',
+          'rgba(255,99,132,1)',
+          'rgba(255,99,132,1)',
+          'rgba(255,99,132,1)'    ],
+        borderWidth: 2
       },
       {
         label: 'South',
         data: salesRegional.south,
         backgroundColor: [
-          'rgba(255, 99, 132, 0.2)',
           'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)',
-          'rgba(255, 159, 64, 0.2)',
-          'rgba(0, 0, 0, 0.2)'
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)'
         ],
         borderColor: [
-          'rgba(255,99,132,1)',
           'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)',
-          'rgba(0, 0, 0, 1)'
+          'rgba(54, 162, 235, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(54, 162, 235, 1)'
         ],
-        borderWidth: 5
+        borderWidth: 2
       },
       {
         label: 'East',
         data: salesRegional.east,
         backgroundColor: [
-          'rgba(255, 99, 132, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
           'rgba(255, 206, 86, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)',
-          'rgba(255, 159, 64, 0.2)',
-          'rgba(0, 0, 0, 0.2)'
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
         ],
         borderColor: [
-          'rgba(255,99,132,1)',
-          'rgba(54, 162, 235, 1)',
           'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)',
-          'rgba(0, 0, 0, 1)'
+          'rgba(255, 206, 86, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(255, 206, 86, 1)',
         ],
-        borderWidth: 5
+        borderWidth: 2
       },
       {
         label: 'West',
         data: salesRegional.west,
         backgroundColor: [
-          'rgba(255, 99, 132, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
           'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)',
-          'rgba(255, 159, 64, 0.2)',
-          'rgba(0, 0, 0, 0.2)'
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(75, 192, 192, 0.2)'
         ],
         borderColor: [
-          'rgba(255,99,132,1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
           'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)',
-          'rgba(0, 0, 0, 1)'
-        ],
-        borderWidth: 5
+          'rgba(75, 192, 192, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(75, 192, 192, 1)'   ],
+        borderWidth: 2
       }
     ]
   },
   options: {
+    title: {display: true, text: "2017 BMW Car Sales",fontSize: 48, fontColor: "white"},
     scales: {
       yAxes: [
         {
           stacked: true,
           ticks: {
-            beginAtZero: true
+            beginAtZero: true,
+          },
+          scaleLabel: {
+            display: true,
+            labelString: '$ in Millions',
+            fontSize: 24,
+            fontColor: "white"
           }
         }
       ],
@@ -165,6 +176,12 @@ var myChart = new Chart(ctx, {
           stacked: true,
           ticks: {
             beginAtZero: true
+          },
+          scaleLabel: {
+            display: true,
+            labelString: 'Models',
+            fontSize: 24,
+            fontColor: "white"
           }
         }
       ]
